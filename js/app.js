@@ -1,5 +1,5 @@
 // =====================================================
-//  Brecha · mini CTF en una terminal falsa
+//  Brecha · mini CTF(capture the flag) en una terminal falsa
 // =====================================================
 
 // ===== Datos del sistema "hackeado" =====
