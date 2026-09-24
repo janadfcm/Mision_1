@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Brecha · mini CTF</title>
+  <link rel="stylesheet" href="css/estilos.css" />
+  <script src="js/app.js" defer></script>
+</head>
+<body>
+  <header>
+    <h1>Brecha 🏴</h1>
+    <p id="marcador" class="marcador"></p>
+  </header>
+
+  <main>
+    <nav id="atajos" class="atajos">
+      <button type="button">help</button>
+      <button type="button">ls</button>
+      <button type="button">ls -a</button>
+      <button type="button">whoami</button>
+      <button type="button">clear</button>
+    </nav>
+
+    <section id="terminal" class="terminal"></section>
+
+    <p class="prompt">
+      <label id="etiquetaPrompt" for="entrada"></label>
+      <input id="entrada" type="text" autocomplete="off" spellcheck="false" autofocus />
+    </p>
+  </main>
+</body>
+</html>

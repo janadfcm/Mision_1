@@ -167,7 +167,8 @@ function ejecutar(textoEntrada) {
   totalComandos = contarComando();
 
   // "cat logs.txt" → comando = "cat", argumentos = ["logs.txt"]
-  const [comando, ...argumentos] = texto.split(" ");
+  // /\s+/ separa por uno o más espacios seguidos
+  const [comando, ...argumentos] = texto.split(/\s+/);
   const argumento = argumentos[0] ?? "";
 
   switch (comando) {
@@ -190,8 +191,8 @@ function ejecutar(textoEntrada) {
       entregar(argumento);
       break;
     case "echo":
-      // replace solo cambia la PRIMERA aparición: justo el "echo" del principio
-      imprimir(texto.replace("echo", "").trim());
+      // slice(4) quita las 4 letras de "echo" del principio
+      imprimir(texto.slice(4).trim());
       break;
     case "clear":
       terminal.textContent = "";
