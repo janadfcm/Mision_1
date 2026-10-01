@@ -54,7 +54,8 @@ Mision1/
   - La parte del modo oscuro (tecla secreta F2).
   - Preguntas sobre las partes del código que me resultaban más difíciles de entender.
 - **Prompts reales relevantes:**
-  1. «vale vamos a ir a otra misión y quiero mismo usa solo cosas de pdf, y usos del pdf, aunque pienses que otra forma mejor de hacerlo usa las cosas del pdf» (junto con la rúbrica de la M1 y el PDF de la Unidad 1).
+  1.«Dame ideas para la mision 1 que sea asi original y que este relacionada con ciberseguridad »
+  2. «vale vamos a ir a otra misión y quiero mismo usa solo cosas de pdf, y usos del pdf, aunque pienses que otra forma mejor de hacerlo usa las cosas del pdf, para que me ayudes a hacer las estructuras de los tres archivos que tengo que hacer (html,css y js)» (junto con la rúbrica de la M1 y el PDF de la Unidad 1).
   2. Le pregunté cómo separar el comando cuando el usuario escribe varios espacios seguidos (p. ej. `cat    logs.txt`). La respuesta fue usar la expresión regular `/\s+/` en `split`, que separa por uno o más espacios seguidos.
 - **Cómo lo verifiqué:** abrí el proyecto con la extensión Live Server (*Go Live*) de Visual Studio Code y fui probando en el navegador que todo funcionaba.
 - **Qué hice yo a mano:** los textos del juego, las banderas, los colores, el diseño y otros ajustes de presentación.
